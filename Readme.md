@@ -18,3 +18,6 @@ npm install @headlessui/react@latest
 npm install @heroicons/react
 
 npm i marked
+
+https://tailwindcss.com/docs/typography-plugin
+npm i --save-dev @tailwindcss/typography

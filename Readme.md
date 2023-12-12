@@ -21,3 +21,6 @@ npm i marked
 
 https://tailwindcss.com/docs/typography-plugin
 npm i --save-dev @tailwindcss/typography
+
+https://www.npmjs.com/package/gray-matter
+npm install --save gray-matter

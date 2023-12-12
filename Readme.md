@@ -16,3 +16,5 @@ npx tailwindcss init --postcss
 
 npm install @headlessui/react@latest
 npm install @heroicons/react
+
+npm i marked

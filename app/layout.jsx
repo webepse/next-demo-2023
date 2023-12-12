@@ -4,7 +4,7 @@ import './globals.css'
 export default function RootLayout({children}){
     return (
         <html lang="fr">
-            <body>
+            <body className="flex flex-col px-4 py-2 min-h-screen bg-orange-50">
                 <header>
                     <nav>
                         <ul>
@@ -17,7 +17,7 @@ export default function RootLayout({children}){
                 <main>
                  {children}
                 </main>
-                <footer>
+                <footer className="text-center text-xs border-t py-3">
                     footer
                 </footer>
             </body>

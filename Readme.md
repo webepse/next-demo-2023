@@ -13,3 +13,6 @@ installation de tailwind
 npm install --save-dev tailwindcss postcss autoprefixer
 
 npx tailwindcss init --postcss
+
+npm install @headlessui/react@latest
+npm install @heroicons/react

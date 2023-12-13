@@ -1,22 +1,18 @@
 import Heading from "@/components/Heading"
-import { readFile } from 'node:fs/promises'
-import { marked } from "marked"
-import matter from "gray-matter"
+import { getReview } from "@/lib/review"
 
 
 export default async function DiabloPage()
 {
-    const text = await readFile('./content/reviews/diablo.md','utf8')
-    const { content, data: {title, date, image}} = matter(text)
-    const html = marked(content)
+   const review = await getReview('diablo')
 
 
     return (
         <>
-            <Heading>{title}</Heading>
-            <p className="italic pb-2">{date}</p>
-            <img src={image} alt={`image de ${title}`} className="mb-4 rounded w-screen mx-auto"/>
-            <article dangerouslySetInnerHTML={{__html: html}} className="prose lg:prose-xl"/>
+            <Heading>{review.title}</Heading>
+            <p className="italic pb-2">{review.date}</p>
+            <img src={review.image} alt={`image de ${review.title}`} className="mb-4 rounded w-screen mx-auto"/>
+            <article dangerouslySetInnerHTML={{__html: review.body}} className="prose lg:prose-xl"/>
         </>
     )
 }

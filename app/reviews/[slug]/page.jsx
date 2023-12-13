@@ -2,9 +2,9 @@ import Heading from "@/components/Heading"
 import { getReview } from "@/lib/review"
 
 
-export default async function DiabloPage()
+export default async function ReviewPage({params: {slug}})
 {
-   const review = await getReview('diablo')
+   const review = await getReview(slug)
 
 
     return (

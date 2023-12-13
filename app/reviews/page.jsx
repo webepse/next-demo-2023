@@ -15,7 +15,7 @@ export default function ReviewsPage()
                     </Link>
                 </li>
                 <li className='border rounded shadow hover:shadow-xl w-80 bg-slate-50'>
-                    <Link href="/reviews/spider-man">
+                    <Link href="/reviews/spiderman">
                         <img src="/images/spiderman2.jpg" alt="image de Spider-man" className='rounded-t' />
                         <h2 className='font-orbitron font-semibold py-1 text-center'>Spider-man 2</h2>
                     </Link>

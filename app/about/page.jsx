@@ -1,8 +1,12 @@
+// "use client"
 import styles from './styles.module.css'
 import Heading from '@/components/Heading'
 
 export default function AboutPage() 
 {
+    // console.log("aboutPage [READING]");
+
+
     return (
         <>
             <Heading>About us</Heading>

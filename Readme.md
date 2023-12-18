@@ -24,3 +24,12 @@ npm i --save-dev @tailwindcss/typography
 
 https://www.npmjs.com/package/gray-matter
 npm install --save gray-matter
+
+Mise en ligne 
+exportation voir le fichier next.config.js
+npm run build pour avoir le dossier out
+
+pour tester en local 
+npx serve@latest out/ 
+
+ne pas oublier de mettre /out/ dans gitignore

@@ -7,6 +7,17 @@ export async function generateStaticParams() {
     return slugs.map((slug) => ({slug}))
 }
 
+export async function generateMetadata(props) {
+    const review = await getReview(props.params.slug)
+    // const obj = {
+    //     title: review.title
+    // }
+    // return obj
+    return {
+        title: review.title
+    }
+}
+
 export default async function ReviewPage({params: {slug}})
 {
    const review = await getReview(slug)

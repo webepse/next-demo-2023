@@ -3,6 +3,14 @@ import './globals.css'
 import NavBar from "@/components/NavBar"
 import { orbitron, exo2 } from "./fonts"
 
+export const metadata = {
+    title: {
+        default: 'Game',
+        template: '%s | Game'
+    },
+    description: 'Only the best games, reviewed for you'
+}
+
 export default function RootLayout({children}){
     return (
         <html lang="fr" className={`${orbitron.variable} ${exo2.variable}`}>

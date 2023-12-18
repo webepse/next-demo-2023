@@ -15,6 +15,7 @@ export default async function ReviewsPage()
         <>
             <Heading>Reviews</Heading>
             <p>Here we'll list all the reviews</p>
+            
             <ul className='flex flex-col gap-3'>
                 {reviews.map((review) => (
 

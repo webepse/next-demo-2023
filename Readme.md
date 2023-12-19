@@ -38,3 +38,5 @@ ne pas oublier de mettre /out/ dans gitignore
 
 pour voir la req strapi api
 node scripts/strapi-request.mjs
+
+https://www.npmjs.com/package/qs

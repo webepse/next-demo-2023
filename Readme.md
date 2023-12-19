@@ -33,3 +33,8 @@ pour tester en local
 npx serve@latest out/ 
 
 ne pas oublier de mettre /out/ dans gitignore
+
+## Installer et configurer strapi avant de faire le code next et node
+
+pour voir la req strapi api
+node scripts/strapi-request.mjs

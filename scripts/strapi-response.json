@@ -1,102 +1,18 @@
 {
   "data": [
     {
-      "id": 8,
+      "id": 1,
       "attributes": {
-        "slug": "baldurs-3",
-        "title": "Baldur's Gate 3",
-        "subtitle": "Retournez aux Royaumes Oubliés",
-        "publishedAt": "2023-12-19T08:51:56.715Z",
+        "slug": "diablo-4",
+        "title": "Diablo IV",
+        "subtitle": "Appropriez-vous sanctuaire",
+        "publishedAt": "2023-12-19T08:30:21.154Z",
+        "body": "La bataille entre __les cieux__ et __les enfers__ fait rage et le chaos menace de consumer __Sancutaire__. Avec d'innombrables démons à massacrer, une multitude de capacités à maitriser, des donjons _cuachemardesques_ et des butins légendaires, ce vaste monde ouvert vous promet aventures et dévastation. Survivez et Triomphez des ténèbres.. ou sombrez dans l'oubli le plus profond.",
         "image": {
           "data": {
-            "id": 8,
+            "id": 1,
             "attributes": {
-              "url": "/uploads/baldurs3_a39f13a33d.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 7,
-      "attributes": {
-        "slug": "hogwarts",
-        "title": "Hogwarts Legacy",
-        "subtitle": "L'Héritage de Poudlard",
-        "publishedAt": "2023-12-19T08:50:24.841Z",
-        "image": {
-          "data": {
-            "id": 7,
-            "attributes": {
-              "url": "/uploads/hogwarts_3ebe1c980f.jpeg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 6,
-      "attributes": {
-        "slug": "starfield",
-        "title": "Starfield",
-        "subtitle": "Il est difficile de ne pas s'en réjouir",
-        "publishedAt": "2023-12-19T08:49:11.268Z",
-        "image": {
-          "data": {
-            "id": 6,
-            "attributes": {
-              "url": "/uploads/starfield_c4ab294566.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 5,
-      "attributes": {
-        "slug": "zelda-tears",
-        "title": "Zelda Tears of the Kingdom",
-        "subtitle": "Explorez les vastes terres et les cieux d'Hyrule",
-        "publishedAt": "2023-12-19T08:47:23.500Z",
-        "image": {
-          "data": {
-            "id": 5,
-            "attributes": {
-              "url": "/uploads/zelda_36db29cacd.jpeg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 4,
-      "attributes": {
-        "slug": "forza-8",
-        "title": "Forza Motorsport 8",
-        "subtitle": "Un impact sur la température de la piste",
-        "publishedAt": "2023-12-19T08:45:27.024Z",
-        "image": {
-          "data": {
-            "id": 4,
-            "attributes": {
-              "url": "/uploads/forza_a43081a067.jpg"
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 3,
-      "attributes": {
-        "slug": "mario-wonder",
-        "title": "Super Mario Wonder",
-        "subtitle": "Attendez-vous à l'inattendu !",
-        "publishedAt": "2023-12-19T08:43:04.889Z",
-        "image": {
-          "data": {
-            "id": 3,
-            "attributes": {
-              "url": "/uploads/mario_ace6f48cab.jpg"
+              "url": "/uploads/diablo_f55a889e48.jpg"
             }
           }
         }
@@ -106,9 +22,7 @@
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 6,
-      "pageCount": 2,
-      "total": 8
+      "pageSize": 1
     }
   }
 }

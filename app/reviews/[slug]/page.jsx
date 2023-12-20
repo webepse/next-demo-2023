@@ -28,12 +28,17 @@ export default async function ReviewPage({params: {slug}})
     return (
         <>
             <Heading>{review.title}</Heading>
+            <p className="font-semibold pb-3">
+                {review.subtitle}
+            </p>
             <div className="flex gap-3 items-baseline">
                 <p className="italic pb-2">{review.date}</p>
                 <ShareButtons />
             </div>
             <Image width="380" height="180" src={review.image} alt={`image de ${review.title}`} className="mb-4 rounded w-screen mx-auto" priority/>
-            <article dangerouslySetInnerHTML={{__html: review.body}} className="prose lg:prose-xl"/>
+            <div className="w-full">
+                <article dangerouslySetInnerHTML={{__html: review.body}} className="prose w-full max-w-none"/>
+            </div>
         </>
     )
 }

@@ -40,3 +40,11 @@ pour voir la req strapi api
 node scripts/strapi-request.mjs
 
 https://www.npmjs.com/package/qs
+
+
+npm install --save-dev eslint eslint-config-next 
+ajouter .eslintrc.json
+
+ajouter script dans package.json
+
+npm run lint pour afficher warning et error

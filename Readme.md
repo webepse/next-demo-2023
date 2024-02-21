@@ -48,3 +48,7 @@ ajouter .eslintrc.json
 ajouter script dans package.json
 
 npm run lint pour afficher warning et error
+
+
+## page 404
+https://nextjs.org/docs/app/api-reference/file-conventions/not-found
